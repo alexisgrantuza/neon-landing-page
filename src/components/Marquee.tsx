@@ -17,7 +17,7 @@ const Marquee = () => {
   ];
 
   return (
-    <div className="mx-auto bg-black/[0.7] antialiased bg-grid-white/[0.02]">
+    <div className="mx-auto bg-black/[0.7] antialiased bg-grid-white/[0.02] mt-12">
       <MarqueeItem images={upperMarquee} from={0} to={"-100%"} />
     </div>
   );

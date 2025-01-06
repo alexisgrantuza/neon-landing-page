@@ -1,5 +1,6 @@
 import { BentoGridThirdDemo } from "@/components/BentoGridThirdDemo";
 import { Explore } from "@/components/Explore";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import { NavbarDemo } from "@/components/Navbar";
@@ -10,9 +11,9 @@ export default function Home() {
     <>
       <NavbarDemo navItems={navItems} />
       <Hero />
-      <Marquee />
       <BentoGridThirdDemo />
       <Explore />
+      <Footer />
     </>
   );
 }
