@@ -14,10 +14,10 @@ import {
 
 const items = [
   {
-    title: "AI Content Generation",
+    title: "Stay Connected With NEON Remotely",
     description: (
       <span className="text-sm">
-        Experience the power of AI in generating unique content.
+        Handle all your academic queries anywhere with precision and ease.
       </span>
     ),
     header: <SkeletonOne />,
@@ -40,10 +40,10 @@ const items = [
     ),
   },
   {
-    title: "Automated Proofreading",
+    title: "AI-Driven Support at Your Fingertips",
     description: (
       <span className="text-sm">
-        Let AI handle the proofreading of your documents.
+        Quickly get answers to school-related questions.
       </span>
     ),
     header: <SkeletonTwo />,
@@ -66,10 +66,10 @@ const items = [
     ),
   },
   {
-    title: "Contextual Suggestions",
+    title: "Real-Time School Updates",
     description: (
       <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
+        Stay up-to-date with your schedules and events all in one place.
       </span>
     ),
     header: <SkeletonThree />,
@@ -92,10 +92,10 @@ const items = [
     ),
   },
   {
-    title: "Sentiment Analysis",
+    title: "Response Catered to Your School-Related Needs",
     description: (
       <span className="text-sm">
-        Understand the sentiment of your text with AI analysis.
+        Helping students, faculty, and parents alike.
       </span>
     ),
     header: <SkeletonFour />,
@@ -119,10 +119,10 @@ const items = [
   },
 
   {
-    title: "Text Summarization",
+    title: "Reduce Administrative Workload",
     description: (
       <span className="text-sm">
-        Summarize your lengthy documents with AI technology.
+        Reduce workload and provide support for students and faculty.
       </span>
     ),
     header: <SkeletonFive />,
@@ -173,9 +173,9 @@ const items = [
   },
 
   {
-    title: "Robot Interaction",
+    title: "Interact with NEON",
     description: (
-      <span className="text-sm">A robot holding the device and walking.</span>
+      <span className="text-sm">Meet Your 3D Virtual Assistant</span>
     ),
     header: <SkeletonSeven />, // SkeletonSeven now reflects robot interaction
     className: "md:col-span-2",
