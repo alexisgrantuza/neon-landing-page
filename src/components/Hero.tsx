@@ -5,6 +5,9 @@ import { DotLottie, DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import leftHand from "./assets/left.png";
+import rightHand from "./assets/right.png";
 
 const items = [
   {
@@ -30,6 +33,16 @@ const Hero = () => {
   return (
     <div className="pb-20 pt-36">
       <div className="flex justify-center relative my-20 z-10 bg-black/[0.7] antialiased bg-grid-white/[0.02]">
+        <Image
+          src={leftHand}
+          alt="Left Hand"
+          className="absolute left-0 top-1/2 -translate-y-1/3 w-[1000px] h-auto"
+        />
+        <Image
+          src={rightHand}
+          alt="Right Hand"
+          className="absolute -right-5 top-1/2 -translate-y-1/4 w-[1000px] h-auto"
+        />
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
